@@ -12,9 +12,6 @@ import {
   faUserNurse,
   faBreadSlice,
   faAppleWhole,
-  faWeightScale,
-  faSeedling,
-  faVial,
 } from "@fortawesome/free-solid-svg-icons";
 
 const supportLinks = [

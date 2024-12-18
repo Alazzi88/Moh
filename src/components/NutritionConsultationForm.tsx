@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
-import dayjs, { Dayjs } from "dayjs";
+import { Dayjs } from "dayjs";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faIdCard, faUser, faCalendarDay, faVenusMars, faPhone, faStethoscope } from "@fortawesome/free-solid-svg-icons";
 import { useForm, ValidationError } from "@formspree/react";
