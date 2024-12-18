@@ -85,7 +85,7 @@ const supportLinks = [
     name: "تغذية صيام رمضان",
     href: "/fasting",
     description: "تفاصيل خاصة بالتغذية اثناء الصيام .",
-    icon: faBreadSlice, 
+    icon: faBreadSlice,
   },
 ];
 
@@ -105,14 +105,15 @@ export default function Welcome() {
             className="absolute inset-0 bg-gray-800 mix-blend-multiply"
           />
         </div>
-        <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 flex justify-between items-center">
-          <h1 className="text-4xl font-normal tracking-tight text-sky-500 md:text-5xl lg:text-6xl animate-slide-right">
+        <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 flex flex-col sm:flex-row justify-between items-center">
+          <h1 className="text-4xl font-normal tracking-tight text-sky-500 md:text-5xl lg:text-6xl animate-slide-right mb-4 sm:mb-0 sm:mr-4">
             تجمع عسير الصحي
           </h1>
           <h1 className="text-4xl font-normal tracking-tight text-sky-500 md:text-5xl lg:text-2xl animate-slide-right">
             مسار التغذية العلاجية
           </h1>
         </div>
+
       </div>
 
       {/* Overlapping cards */}
@@ -144,7 +145,7 @@ export default function Welcome() {
                   href={link.href}
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
-                   للإطلاع <span aria-hidden="true"> &rarr;</span>
+                  للإطلاع <span aria-hidden="true"> &rarr;</span>
                 </a>
               </div>
             </div>

@@ -2,13 +2,16 @@ import React from "react";
 
 const StrategyPage = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-50 via-white to-gray-100 min-h-screen flex flex-col items-center py-16 px-6">
+    <div
+      className="bg-gradient-to-b from-gray-50 via-white to-gray-100 min-h-screen flex flex-col items-center py-16 px-6"
+      dir="rtl" // إضافة دعم الاتجاه من اليمين إلى اليسار
+    >
       {/* Header Section */}
       <header className="text-center mb-16">
         <h1 className="text-5xl font-extrabold text-sky-600 mb-6 relative">
           <span className="relative inline-block">
             أهدافنا وقيمنا
-            <span className="absolute inset-x-4 bottom-[-10px] h-[3px] bg-sky-500 rounded-full"></span>
+            <span className="absolute left-4 right-4 bottom-[-10px] h-[3px] bg-sky-500 rounded-full"></span>
           </span>
         </h1>
         <p className="text-gray-700 text-lg max-w-3xl mx-auto leading-relaxed">
@@ -21,10 +24,10 @@ const StrategyPage = () => {
         <h2 className="text-4xl font-bold text-sky-600 text-center mb-12 relative group">
           <span className="relative inline-block">
             الأهداف
-            <span className="absolute inset-x-4 bottom-[-10px] h-[3px] bg-sky-500 rounded-full scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></span>
+            <span className="absolute left-4 right-4 bottom-[-10px] h-[3px] bg-sky-500 rounded-full scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></span>
           </span>
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {[
             "تحسين صحة المرضى: توفير استشارات غذائية وعلاجية مخصصة لتحسين صحة الأفراد المصابين بحالات صحية متنوعة مثل السمنة، السكري، وأمراض القلب.",
             "الوقاية من الأمراض: تعزيز التثقيف الغذائي لتقليل انتشار الأمراض المزمنة المرتبطة بالتغذية مثل السمنة والسكري.",
@@ -51,10 +54,10 @@ const StrategyPage = () => {
         <h2 className="text-4xl font-bold text-sky-600 text-center mb-12 relative group">
           <span className="relative inline-block">
             القيم
-            <span className="absolute inset-x-4 bottom-[-10px] h-[3px] bg-sky-500 rounded-full scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></span>
+            <span className="absolute left-4 right-4 bottom-[-10px] h-[3px] bg-sky-500 rounded-full scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></span>
           </span>
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {[
             "الجودة: تقديم خدمات تغذية علاجية عالية الجودة تواكب المعايير الطبية الحديثة.",
             "الاحترافية: العمل بروح الفريق الواحد والاهتمام بتقديم الرعاية الصحية المتكاملة.",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ScrollToTop from "@/components/ScrollToTop";
 
 
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-almarai bg-gray-50 text-gray-900 antialiased">
+      <ScrollToTop/>
         {children}
       </body>
     </html>
