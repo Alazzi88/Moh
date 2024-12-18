@@ -26,7 +26,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl" className="scroll-smooth">
+    <html
+      lang="ar"
+      dir="rtl"
+      className={`scroll-smooth ${geistSans.variable} ${geistMono.variable}`}
+    >
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&display=swap"
@@ -34,7 +38,6 @@ export default function RootLayout({
         />
       </head>
       <body className="font-almarai bg-gray-50 text-gray-900 antialiased">
-        
         {children}
       </body>
     </html>
