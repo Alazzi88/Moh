@@ -49,6 +49,7 @@ export default function Manager() {
                   src="/img/vid.mp4"
                   poster="/img/imgvid.webp"
                   onEnded={handleVideoEnded}
+                  controls
                 ></video>
 
                 {!isPlaying && (
