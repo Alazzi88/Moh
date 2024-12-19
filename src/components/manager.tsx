@@ -19,7 +19,7 @@ export default function Manager() {
                 <video
 
                   className="absolute top-0 left-0 w-full h-full object-contain rounded-full"
-                  src="/img/vid.mp4"
+                  src="/img/vid.mov"
                   poster="/img/imgvid.webp"
                   controls
                 ></video>
