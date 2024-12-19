@@ -3,31 +3,31 @@ import React from "react";
 const StrategyPage = () => {
   return (
     <div
-      className="bg-gradient-to-b from-gray-50 via-white to-gray-100 min-h-screen flex flex-col items-center py-16 px-6"
+      className="bg-gradient-to-b from-gray-50 via-white to-gray-100 min-h-screen flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8"
       dir="rtl" // إضافة دعم الاتجاه من اليمين إلى اليسار
     >
       {/* Header Section */}
-      <header className="text-center mb-16">
-        <h1 className="text-5xl font-extrabold text-sky-600 mb-6 relative">
+      <header className="text-center mb-12 sm:mb-16">
+        <h1 className="text-3xl sm:text-4xl lg:text-4xl font-extrabold text-sky-600 mb-4 relative">
           <span className="relative inline-block">
             أهدافنا وقيمنا
-            <span className="absolute left-4 right-4 bottom-[-10px] h-[3px] bg-sky-500 rounded-full"></span>
+            <span className="absolute left-0 right-0 bottom-[-8px] h-[3px] bg-sky-500 rounded-full"></span>
           </span>
         </h1>
-        <p className="text-gray-700 text-lg max-w-3xl mx-auto leading-relaxed">
+        <p className="text-gray-700 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
           نعمل على تحقيق التميز في مجال التغذية العلاجية والوقاية من الأمراض من خلال تقديم خدمات مبتكرة وموثوقة تساعد الأفراد على تحقيق صحة مستدامة.
         </p>
       </header>
 
       {/* Goals Section */}
-      <section className="w-full max-w-7xl mb-20">
-        <h2 className="text-4xl font-bold text-sky-600 text-center mb-12 relative group">
+      <section className="w-full max-w-7xl mb-16 sm:mb-20">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-sky-600 text-center mb-8 relative group">
           <span className="relative inline-block">
             الأهداف
-            <span className="absolute left-4 right-4 bottom-[-10px] h-[3px] bg-sky-500 rounded-full scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></span>
+            <span className="absolute left-0 right-0 bottom-[-6px] h-[3px] bg-sky-500 rounded-full scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></span>
           </span>
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10">
           {[
             "تحسين صحة المرضى: توفير استشارات غذائية وعلاجية مخصصة لتحسين صحة الأفراد المصابين بحالات صحية متنوعة مثل السمنة، السكري، وأمراض القلب.",
             "الوقاية من الأمراض: تعزيز التثقيف الغذائي لتقليل انتشار الأمراض المزمنة المرتبطة بالتغذية مثل السمنة والسكري.",
@@ -38,12 +38,12 @@ const StrategyPage = () => {
           ].map((goal, index) => (
             <div
               key={index}
-              className="flex flex-col items-center bg-gradient-to-r from-white to-gray-50 text-gray-900 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 border-t-4 border-sky-500"
+              className="flex flex-col items-center bg-gradient-to-r from-white to-gray-50 text-gray-900 rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-lg transition-transform transform hover:scale-105 border-t-4 border-sky-500"
             >
-              <div className="text-4xl font-bold text-sky-500 mb-4">
+              <div className="text-3xl sm:text-4xl font-bold text-sky-500 mb-3">
                 {index + 1}.
               </div>
-              <p className="text-center text-lg leading-relaxed">{goal}</p>
+              <p className="text-center text-base sm:text-lg leading-relaxed">{goal}</p>
             </div>
           ))}
         </div>
@@ -51,13 +51,13 @@ const StrategyPage = () => {
 
       {/* Values Section */}
       <section className="w-full max-w-7xl">
-        <h2 className="text-4xl font-bold text-sky-600 text-center mb-12 relative group">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-sky-600 text-center mb-8 relative group">
           <span className="relative inline-block">
             القيم
-            <span className="absolute left-4 right-4 bottom-[-10px] h-[3px] bg-sky-500 rounded-full scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></span>
+            <span className="absolute left-0 right-0 bottom-[-6px] h-[3px] bg-sky-500 rounded-full scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></span>
           </span>
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10">
           {[
             "الجودة: تقديم خدمات تغذية علاجية عالية الجودة تواكب المعايير الطبية الحديثة.",
             "الاحترافية: العمل بروح الفريق الواحد والاهتمام بتقديم الرعاية الصحية المتكاملة.",
@@ -68,12 +68,12 @@ const StrategyPage = () => {
           ].map((value, index) => (
             <div
               key={index}
-              className="flex flex-col items-center bg-gradient-to-r from-white to-gray-50 text-gray-900 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 border-t-4 border-sky-500"
+              className="flex flex-col items-center bg-gradient-to-r from-white to-gray-50 text-gray-900 rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-lg transition-transform transform hover:scale-105 border-t-4 border-sky-500"
             >
-              <div className="text-4xl font-bold text-sky-500 mb-4">
+              <div className="text-3xl sm:text-4xl font-bold text-sky-500 mb-3">
                 {index + 1}.
               </div>
-              <p className="text-center text-lg leading-relaxed">{value}</p>
+              <p className="text-center text-base sm:text-lg leading-relaxed">{value}</p>
             </div>
           ))}
         </div>

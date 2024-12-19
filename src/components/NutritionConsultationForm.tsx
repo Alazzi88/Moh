@@ -36,7 +36,7 @@ const ContactPage: React.FC = () => {
   return (
     <div className="p-6 mt-20 max-w-md mx-auto bg-white shadow-md rounded-lg rtl text-right my-5">
       <h1 className="text-2xl text-center font-bold mb-4 text-sky-600">
-        لحجز موعد
+        لحجز موعد افتراضي
       </h1>
       <p className="text-lg text-gray-600 mb-8 text-center">
         لاستشارة أخصائي تغذية علاجية شاركنا بياناتك

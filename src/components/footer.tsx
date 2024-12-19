@@ -91,15 +91,8 @@ const Footer: React.FC = () => {
         {/* القسم السفلي للفوتر */}
         <div className="mt-12 border-t border-white/20 pt-12 text-center space-y-4 ">
           <p className="text-sm">
-            This website Developed by {" "}
-            <a
-              href="https://3zzo.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-gray-300 transition"
-            >
-              3zzo.com
-            </a>
+            This website Developed by Yahya Alizzi
+          
           </p>
         </div>
       </div>
@@ -198,7 +191,6 @@ const Footer: React.FC = () => {
                   <a href="mailto:3zzoezzo@gmail.com" className="underline text-blue-600 hover:text-blue-800">
                     3zzoezzo@gmail.com
                   </a>{" "}
-                  أو عبر الهاتف على [رقم الهاتف].
                 </p>
               </section>
             </div>
