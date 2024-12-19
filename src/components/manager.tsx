@@ -1,9 +1,7 @@
 "use client";
 
-import { useRef, useState } from "react";
 
 export default function Manager() {
-  const videoRef = useRef<HTMLVideoElement | null>(null);
 
   return (
     <section className="relative isolate overflow-hidden bg-gray-50 mt-12 px-4 py-12 sm:py-16 lg:px-8">
@@ -19,7 +17,7 @@ export default function Manager() {
             <div className="w-full max-w-3xl overflow-hidden rounded-xl shadow-lg">
               <div className="relative w-full h-[500px] bg-white"> {/* تعديل الارتفاع حسب الحاجة */}
                 <video
-                  ref={videoRef}
+
                   className="absolute top-0 left-0 w-full h-full object-contain rounded-full"
                   src="/img/vid.mp4"
                   poster="/img/imgvid.webp"
