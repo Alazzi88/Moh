@@ -32,7 +32,7 @@ export default function Manager() {
             src="/img/logo.webp"
             className="h-12 sm:h-16 my-4"
           />
-          <p className="text-base sm:text-lg font-medium text-gray-700">كلمة المدير التنفيذي</p>
+          <p className="text-base sm:text-lg font-medium text-gray-700">كلمة الرئيس التنفيذي</p>
         </div>
 
         {/* اقتباس المدير التنفيذي */}
@@ -53,7 +53,7 @@ export default function Manager() {
             <div className="mt-2 sm:mt-4 flex flex-col items-center text-sm sm:text-base text-gray-600">
               <div className="font-semibold text-gray-900 text-base sm:text-lg">الدكتور ابراهيم بن عبدالكريم العريفي</div>
               <div className="flex items-center mt-1">
-                <span>المدير التنفيذي</span>
+                <span>الرئيس التنفيذي  لتجمع عسير الصحي</span>
               </div>
             </div>
           </figcaption>
