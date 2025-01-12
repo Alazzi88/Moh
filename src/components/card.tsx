@@ -11,7 +11,7 @@ export default function Card() {
       className="  divide-gray-200 overflow-hidden rounded-lg bg-sky-30 shadow mb-7 m-2 py-20 font-almarai"
     >
       <div className="px-4 py-5 sm:px-6 text-center ">
-        <h1 className='text-white  text-2xl  py-2 px-2 bg-sky-600 rounded-3xl'>اهم الانجازات  </h1>
+        <h1 className='text-white  text-2xl  py-2 px-2 bg-sky-600 rounded-3xl'>المشاركات المجتمعية  </h1>
      </div>
       <div className="px-4 py-5 sm:p-6 ">
         <Swiper

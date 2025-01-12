@@ -29,4 +29,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; /* استخدم الوزن المناسب */
 }
 
-
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 14px; 
+  color: #0ea5e9;  
+}

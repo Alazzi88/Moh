@@ -1,4 +1,6 @@
 import React from "react";
+import { FaHome } from "react-icons/fa"; // أيقونة المنزل
+import Link from "next/link";
 
 export default function CancerNutritionPage() {
   return (
@@ -10,6 +12,19 @@ export default function CancerNutritionPage() {
         backgroundPosition: "center",
       }}
     >
+
+
+                      {/* زر الأيقونة في وسط الشاشة من الأعلى */}
+                      <div className="absolute left-1/2 top-4 transform -translate-x-1/2 z-50">
+        <Link href="/">
+          <button
+            className="bg-purple-600 hover:bg-purple-700 text-white p-3 rounded-full shadow-md focus:outline-none"
+            aria-label="عودة للصفحة الرئيسية"
+          >
+            <FaHome size={20} />
+          </button>
+        </Link>
+      </div>
       <div
         className="max-w-4xl mx-auto shadow-xl rounded-lg overflow-hidden"
         style={{

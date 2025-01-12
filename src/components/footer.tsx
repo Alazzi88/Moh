@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
   const closePrivacy = () => setPrivacyOpen(false);
 
   return (
-    <footer dir="rtl" className="bg-sky-600 text-white">
+    <footer dir="rtl" className="bg-gray-800 text-white">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:py-16 lg:px-8">
         {/* قسم الروابط ذات الصلة */}
         <div className="flex flex-col items-center">
