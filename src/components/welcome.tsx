@@ -117,7 +117,7 @@ export default function Welcome() {
       {/* قسم السلايدر (Carousel) */}
       <section
         aria-labelledby="contact-heading"
-        className="relative z-10 mx-auto mb-1 -mt-32 max-w-7xl px-6 pb-32 lg:px-8"
+        className="relative z-10 mx-auto mb-1 -mt-32 max-w-7xl px-6 pb-2 lg:px-8"
       >
         <h2 id="contact-heading" className="sr-only">
           Contact us
@@ -170,7 +170,7 @@ export default function Welcome() {
                 <div className="bg-gray-50 px-4 py-3 text-center">
                   <a
                     href={link.href}
-                    className="inline-block px-5 py-2 text-sm font-medium text-white  bg-sky-500 rounded hover:bg-sky-600  focus:outline-none focus:ring-2 focus:ring-sky-500"
+                    className="inline-block px-5 py-2 text-sm font-medium text-white  bg-sky-500  hover:bg-sky-600 rounded-3xl focus:outline-none focus:ring-2 focus:ring-sky-500"
                   >
                     للإطلاع
                   </a>
